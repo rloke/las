@@ -1,0 +1,167 @@
+/* Colors
+container bckgrd: #bdb7b7
+header bckgrd: #113f60
+nav links & footer: #af354e
+main/off white: #e7e7e7
+*/
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-size: 1.05em;
+    font-family:'Calibri', 'Trebuchet MS', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Custom CSS */
+
+body {
+    background-image: url(images/barcelona_spain.jpg);
+}
+
+#container {
+    background-color:#ffffff;
+    width: 960px;
+    margin: 25px auto;
+}
+header {
+    background-color:#ffffff;
+    height: 75px;
+    color:rgb(255, 255, 255);
+    padding: 30px 0 20px 0;
+}
+header h1 {
+    font-size: 2em;
+    font-weight:600;
+    margin-left: 25px;
+    font-family:'Prosto One', cursive;
+    color:#c50f34;
+    float:left;
+    width: 700px;
+}
+nav {
+    width: 200px;
+    height: 50px;
+    float:left;
+    padding: 10px 0 5px 0;
+    color: #000000;
+}
+nav details summary {
+    margin-bottom: 5px;
+}
+nav details ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px;
+}
+nav details ul li a {
+    text-decoration: none;
+    color:#c50f34;
+}
+nav details ul li:hover a {
+    text-decoration: underline;
+}
+
+main h2 {
+    color:#c50f34;
+    font-size: 1.5em;
+    font-weight:600;
+    border-top: 2px solid #af354e;
+    margin-left: 25px;
+    padding: 20px 0;
+}
+main section {
+    display: flex;
+    background-color:#eef0d7;
+}
+main section article {
+    flex: 50%;
+    padding: 15px 25px; 
+}
+main aside {
+    flex: 50%;
+    padding: 15px 25px;
+    background-color:#ddddd4;
+}
+main section article h3, main section aside h3 {
+    font-size: 1.25em;
+    font-weight: 600;
+    margin: 25px 0;
+    padding-bottom: 15px;
+    text-align:center;
+    text-shadow:2px 2px white;
+    border-bottom: 2px solid #af354e;
+}
+main section article p, main aside p {
+    margin: 15px 0;
+}
+main section article figure {
+    float: right;
+    margin: 0 0 20px 20px;
+}
+main section article figure img {
+    max-width: 275px;
+}
+main section article figure figcaption,
+main aside figure figcaption {
+    text-align:center;
+    color:#c50f34;
+    font-style: italic;
+    margin-top: 10px;
+}
+main aside {
+    text-align:center;
+}
+main aside figure img {
+    max-width: 168px; 
+}
+main aside p {
+    text-align:left;
+}
+footer {
+    background-color:#c50f34;
+    height: 40px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    font-style: italic;
+    padding-top: 20px;
+}
